@@ -13,6 +13,8 @@ function App() {
       <Navbar />
       <ItemPreview mode={mode} />
       <ReactSlick mode={mode} />
+      <ReactSlick mode={mode} />
+      <ReactSlick mode={mode} />
     </Box>
   );
 }

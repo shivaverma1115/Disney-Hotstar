@@ -85,7 +85,7 @@ export default function CallToActionWithVideo({ mode }) {
               px={6}
               onClick={handlePlayPause}
               rightIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
-              {isPlaying ? 'Pause' : 'Play'}
+              {isPlaying ? 'Play' : 'Pause'}
             </Button>
           </Stack>
         </Stack>
@@ -104,25 +104,9 @@ export default function CallToActionWithVideo({ mode }) {
             zIndex={-1}
             color={useColorModeValue('red.50', 'red.400')}
           />
-          <Box
-            position={'relative'}
-            height={'100%'}
-            rounded={'2xl'}
-            boxShadow={'2xl'}
-            width={'full'}
-            overflow={'hidden'}>
-            <IconButton
-              aria-label={'Play Button'}
-              variant={'ghost'}
-              _hover={{ bg: 'transparent' }}
-              // icon={<PlayIcon w={12} h={12} />}
-              size={'lg'}
-              color={'white'}
-              position={'absolute'}
-              left={'50%'}
-              top={'50%'}
-              transform={'translateX(-50%) translateY(-50%)'}
-            />
+          <Box position={'relative'}height={'100%'}rounded={'2xl'}width={'full'}overflow={'hidden'}
+              boxShadow={'tomato 10px 5px 100px'}
+          >
             <video loop autoPlay
               ref={videoRef}
               style={{

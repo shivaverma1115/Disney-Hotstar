@@ -36,9 +36,8 @@ const CarouselItems = ({ele,mode}) => {
                         maxW={'100%'}
                         maxH={'38vh'}
                         minH={'40vh'}
-                        p={1}
                     >
-                        <Stack>
+                        <Stack boxShadow={'black 10px 5px 100px'} >
                             {ele.children.map((ele,i) => (
                                 <CarouselSubItem key={i} {...ele} />
                             ))}
