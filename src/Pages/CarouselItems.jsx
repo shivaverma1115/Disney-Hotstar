@@ -5,7 +5,7 @@ import { Box, Img, Popover, PopoverContent, PopoverTrigger, Stack } from '@chakr
 import arr from '../NAV_ITEMS.json'
 import CarouselSubItem from '../Components/carouselSubItem';
 
-const CarouselItems = ({ele}) => {
+const CarouselItems = ({ele,mode}) => {
 
     return (
         <Box>
@@ -31,7 +31,8 @@ const CarouselItems = ({ele}) => {
                         position={'relative'}
                         top={'-41vh'}
                         left={'-3vw'}
-                        bg={'wheat'}
+                        bg={mode?'black':'white'}
+                        color={mode?'white':'black'}
                         maxW={'100%'}
                         maxH={'38vh'}
                         minH={'40vh'}

@@ -7,7 +7,7 @@ import { Box } from '@chakra-ui/react';
 import arr from '../NAV_ITEMS.json'
 import CaroueslItems from './CarouselItems'
 
-const ReactSlick = () => {
+const ReactSlick = ({mode}) => {
     const settings = {
         dots: true,
         infinite: true,
@@ -45,12 +45,12 @@ const ReactSlick = () => {
     const MOVIES_ITEMS = arr.MOVIES_ITEMS
     return (
         <>
-            <Box w={'95%'} m={'auto'} >
-                <Box fontSize={25}fontWeight={700} >Latest Releases</Box>
+            <Box w={'95%'} m={'auto'}  >
+                <Box fontSize={25}fontWeight={700}color={mode?'white':'black'} >Latest Releases</Box>
                 <Slider {...settings} >
                     {
                         MOVIES_ITEMS.map((ele, i) => {
-                            return <CaroueslItems ele={ele} key={i} />
+                            return <CaroueslItems ele={ele} key={i} mode={mode} />
                         })
                     }
                 </Slider>

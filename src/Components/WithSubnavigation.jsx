@@ -5,10 +5,15 @@ import MobileNav from './MobileNav'
 import AvatarWithRipple from './AvatarWithRipple'
 import { MdDarkMode } from "react-icons/md";
 import { MdLightMode } from "react-icons/md";
+import { useDispatch, useSelector } from 'react-redux'
+import { getSwitchModeToggle } from '../redux/action'
 
 export default function WithSubnavigation() {
     const { isOpen, onToggle } = useDisclosure()
-    const mode = true ;
+
+    // ---------- MODE TOGGLE ----------
+    const mode = useSelector(store => store.mode);
+    const dispatch = useDispatch() ;
     return (
         <Box bg={'black'} >
             <Flex
@@ -44,10 +49,10 @@ export default function WithSubnavigation() {
                 </Flex>
 
                 <Stack direction={'row'}>
-                    <Box display={['none','none','block']} color={'white'} my={'auto'}fontSize={25}mr={5} > 
-                    {
-                        mode ?<MdDarkMode /> : <MdLightMode />
-                    }
+                    <Box cursor={'pointer'} onClick={()=>dispatch(getSwitchModeToggle())} display={['none', 'none', 'block']} color={'white'} my={'auto'} fontSize={25} mr={5} >
+                        {
+                            mode ? <MdDarkMode /> : <MdLightMode />
+                        }
                     </Box>
                     <AvatarWithRipple />
                 </Stack>

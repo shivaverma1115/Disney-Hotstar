@@ -3,14 +3,16 @@ import Navbar from "./Pages/Navbar";
 import ItemPreview from "./Pages/ItemPreview";
 import CarouselItems from "./Pages/CarouselItems";
 import ReactSlick from "./Pages/ReactSlick";
+import { useSelector } from "react-redux";
 
 
 function App() {
+  const mode = useSelector(store => store.mode);
   return (
-    <Box >
+    <Box bg={mode?'black':'white'} >
       <Navbar />
-      <ItemPreview />
-      <ReactSlick/>
+      <ItemPreview mode={mode} />
+      <ReactSlick mode={mode} />
     </Box>
   );
 }
