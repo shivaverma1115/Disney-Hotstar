@@ -3,9 +3,12 @@ import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons'
 import DesktopNav from './DesktopNav'
 import MobileNav from './MobileNav'
 import AvatarWithRipple from './AvatarWithRipple'
+import { MdDarkMode } from "react-icons/md";
+import { MdLightMode } from "react-icons/md";
 
 export default function WithSubnavigation() {
     const { isOpen, onToggle } = useDisclosure()
+    const mode = true ;
     return (
         <Box bg={'black'} >
             <Flex
@@ -40,12 +43,12 @@ export default function WithSubnavigation() {
                     </Flex>
                 </Flex>
 
-                <Stack
-                    direction={'row'}
-                >
-                    <Button display={['none', 'none', 'inline-flex']} py={2} px={4} color={'white'} border={'1px solid white'} as={'a'} fontSize={'sm'} fontWeight={600} variant={'link'} href={'#shiva'}>
-                        Logout
-                    </Button>
+                <Stack direction={'row'}>
+                    <Box display={['none','none','block']} color={'white'} my={'auto'}fontSize={25}mr={5} > 
+                    {
+                        mode ?<MdDarkMode /> : <MdLightMode />
+                    }
+                    </Box>
                     <AvatarWithRipple />
                 </Stack>
             </Flex>
