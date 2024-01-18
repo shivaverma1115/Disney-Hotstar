@@ -19,7 +19,7 @@ const CarouselItems = ({ele}) => {
                         _hover={{
                             textDecoration: 'none',
                         }}>
-                        <Img h={'40vh'} src={ele.src} />
+                        <Img borderRadius={5} h={'40vh'} src={ele.src} />
                     </Box>
                 </PopoverTrigger>
 
@@ -32,7 +32,7 @@ const CarouselItems = ({ele}) => {
                         top={'-41vh'}
                         left={'-3vw'}
                         bg={'wheat'}
-                        maxW={'17vw'}
+                        maxW={'100%'}
                         maxH={'38vh'}
                         minH={'40vh'}
                         p={1}

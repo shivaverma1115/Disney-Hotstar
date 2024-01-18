@@ -13,7 +13,7 @@ const ReactSlick = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 7,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         initialSlide: 1,
         responsive: [
             {

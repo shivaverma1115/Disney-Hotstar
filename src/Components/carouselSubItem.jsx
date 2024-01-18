@@ -20,7 +20,7 @@ const CarouselSubItem = ({ label,src, href, subLabel }) => {
                         transition={'all .3s ease'}
                         _groupHover={{ color: 'pink.400' }}
                         fontWeight={500}>
-                        <Img src={src} />
+                        <Img borderRadius={5} src={src} />
                     </Text>
                     <Flex p={1} justifyContent={'space-between'} >
                         <Button w={'80%'} >Watch Now</Button>
