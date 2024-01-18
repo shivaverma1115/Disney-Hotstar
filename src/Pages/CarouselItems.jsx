@@ -30,7 +30,7 @@ const CarouselItems = ({ele}) => {
                         rounded={'xl'}
                         position={'relative'}
                         top={'-41vh'}
-                        left={'-2vw'}
+                        left={'-3vw'}
                         bg={'wheat'}
                         maxW={'17vw'}
                         minH={'38vh'}
