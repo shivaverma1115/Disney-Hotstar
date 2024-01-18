@@ -1,0 +1,116 @@
+{
+    "NAV_ITEMS": [
+      {
+        "label": "My Space",
+        "href": "#"
+      },
+      {
+        "label": "Search",
+        "href": "#"
+      },
+      {
+        "label": "Home",
+        "href": "#"
+      },
+      {
+        "label": "TV",
+        "href": "#"
+      },
+      {
+        "label": "Movies",
+        "href": "#"
+      },
+      {
+        "label": "Sports",
+        "href": "#"
+      },
+      {
+        "label": "Categories",
+        "href": "#"
+      }
+    ],
+
+
+    "MOVIES_ITEMS": [
+      {
+        "label": "First Movie", 
+        "children": [
+          {
+            "label": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quasi nesciunt omnis amet? Obcaecati quae architecto, laudantium quo recusandae blanditiis veritatis illo adipisci est provident laborum? Esse quaerat repellendus assumenda?",
+            "subLabel": "2024 | 3 season | 7 languages | U/A 7",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "label": "First Movie", 
+        "children": [
+          {
+            "label": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quasi nesciunt omnis amet? Obcaecati quae architecto, laudantium quo recusandae blanditiis veritatis illo adipisci est provident laborum? Esse quaerat repellendus assumenda?",
+            "subLabel": "2024 | 3 season | 7 languages | U/A 7",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "label": "First Movie", 
+        "children": [
+          {
+            "label": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quasi nesciunt omnis amet? Obcaecati quae architecto, laudantium quo recusandae blanditiis veritatis illo adipisci est provident laborum? Esse quaerat repellendus assumenda?",
+            "subLabel": "2024 | 3 season | 7 languages | U/A 7",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "label": "First Movie", 
+        "children": [
+          {
+            "label": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quasi nesciunt omnis amet? Obcaecati quae architecto, laudantium quo recusandae blanditiis veritatis illo adipisci est provident laborum? Esse quaerat repellendus assumenda?",
+            "subLabel": "2024 | 3 season | 7 languages | U/A 7",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "label": "First Movie", 
+        "children": [
+          {
+            "label": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quasi nesciunt omnis amet? Obcaecati quae architecto, laudantium quo recusandae blanditiis veritatis illo adipisci est provident laborum? Esse quaerat repellendus assumenda?",
+            "subLabel": "2024 | 3 season | 7 languages | U/A 7",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "label": "First Movie", 
+        "children": [
+          {
+            "label": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quasi nesciunt omnis amet? Obcaecati quae architecto, laudantium quo recusandae blanditiis veritatis illo adipisci est provident laborum? Esse quaerat repellendus assumenda?",
+            "subLabel": "2024 | 3 season | 7 languages | U/A 7",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "label": "First Movie", 
+        "children": [
+          {
+            "label": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quasi nesciunt omnis amet? Obcaecati quae architecto, laudantium quo recusandae blanditiis veritatis illo adipisci est provident laborum? Esse quaerat repellendus assumenda?",
+            "subLabel": "2024 | 3 season | 7 languages | U/A 7",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "label": "First Movie", 
+        "children": [
+          {
+            "label": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quasi nesciunt omnis amet? Obcaecati quae architecto, laudantium quo recusandae blanditiis veritatis illo adipisci est provident laborum? Esse quaerat repellendus assumenda?",
+            "subLabel": "2024 | 3 season | 7 languages | U/A 7",
+            "href": "#"
+          }
+        ]
+      }
+    ]
+  }
