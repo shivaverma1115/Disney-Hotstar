@@ -5,7 +5,6 @@ import { Avatar, Box, Flex, keyframes } from '@chakra-ui/react'
 export default function AvatarWithRipple() {
     const size = '50px'
     const color = 'teal'
-    
     const pulseRing = keyframes`
 	    0% {
            transform: scale(0.33);
