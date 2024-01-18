@@ -44,15 +44,18 @@ const ReactSlick = () => {
     };
     const MOVIES_ITEMS = arr.MOVIES_ITEMS
     return (
-        <Box bg={'tomato'}w={'95%'}m={'auto'} >
-            <Slider {...settings} >
-                {
-                    MOVIES_ITEMS.map((ele, i) => {
-                        return <CaroueslItems ele={ele}key={i} />
-                    })
-                }
-            </Slider>
-        </Box>
+        <>
+            <Box w={'95%'} m={'auto'} >
+                <Box fontSize={25}fontWeight={700} >Latest Releases</Box>
+                <Slider {...settings} >
+                    {
+                        MOVIES_ITEMS.map((ele, i) => {
+                            return <CaroueslItems ele={ele} key={i} />
+                        })
+                    }
+                </Slider>
+            </Box>
+        </>
     )
 }
 

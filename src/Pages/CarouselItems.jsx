@@ -6,6 +6,7 @@ import arr from '../NAV_ITEMS.json'
 import CarouselSubItem from '../Components/carouselSubItem';
 
 const CarouselItems = ({ele}) => {
+
     return (
         <Box>
             <Popover trigger={'hover'} placement={'bottom-start'}>
@@ -18,8 +19,7 @@ const CarouselItems = ({ele}) => {
                         _hover={{
                             textDecoration: 'none',
                         }}>
-                        {/* {ele.label} */}
-                        <Img h={'40vh'} src='https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9666/1649666-v-e994faa3b7bf' />
+                        <Img h={'40vh'} src={ele.src} />
                     </Box>
                 </PopoverTrigger>
 
@@ -33,7 +33,8 @@ const CarouselItems = ({ele}) => {
                         left={'-3vw'}
                         bg={'wheat'}
                         maxW={'17vw'}
-                        minH={'38vh'}
+                        maxH={'38vh'}
+                        minH={'40vh'}
                         p={1}
                     >
                         <Stack>
