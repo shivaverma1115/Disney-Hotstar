@@ -3,8 +3,6 @@
 import { Avatar, Box, Flex, keyframes } from '@chakra-ui/react'
 
 export default function AvatarWithRipple() {
-    const size = '50px'
-    const color = 'teal'
     const pulseRing = keyframes`
 	    0% {
            transform: scale(0.33);
@@ -27,8 +25,9 @@ export default function AvatarWithRipple() {
             <Box
                 as="div"
                 position="relative"
-                w={size}
-                h={size}
+                w={'43px'}
+                h={'40px'}
+                my={'auto'}
                 _before={{
                     content: "''",
                     position: 'relative',
@@ -39,7 +38,7 @@ export default function AvatarWithRipple() {
                     marginLeft: '-100%',
                     marginTop: '-100%',
                     borderRadius: '50%',
-                    bgColor: color,
+                    bgColor: 'teal',
                     animation: `2.25s ${pulseRing} cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite`,
                 }}>
                 <Avatar src="https://res.cloudinary.com/dbbuqesjg/image/upload/v1705506706/Desney_hotstar/thumnails/shiva_verma_asvtuu.jpg" size="full" position="absolute" top={0} />
