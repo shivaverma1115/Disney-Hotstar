@@ -9,7 +9,7 @@ import CaroueslItems from './CarouselItems'
 
 const ReactSlick = ({mode}) => {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 7,
@@ -19,24 +19,24 @@ const ReactSlick = ({mode}) => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
                     infinite: true,
-                    dots: true
+                    dots: false
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    initialSlide: 1
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1
                 }
             }

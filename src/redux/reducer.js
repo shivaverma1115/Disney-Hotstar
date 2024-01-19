@@ -1,9 +1,11 @@
-import { SWITCH_MODE } from "./actioType";
+
+import { GET_ITEM, SWITCH_MODE } from "./actioType";
 
 
 
 const initialState = {
-    mode : true 
+    mode : true ,
+    item:{}
 }
 
 export const reducer = (state = initialState, action)=>{
@@ -13,6 +15,11 @@ export const reducer = (state = initialState, action)=>{
             return {
                 ...state,
                 mode:!state.mode 
+            }
+        case GET_ITEM:
+            return {
+                ...state,
+                item:payload
             }
         default:
             return state;

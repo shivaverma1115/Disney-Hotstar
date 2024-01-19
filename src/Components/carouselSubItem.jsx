@@ -1,15 +1,19 @@
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { Box, Button, Flex, Icon, Img, Stack, Text, useColorModeValue } from '@chakra-ui/react'
 import React from 'react'
+import { useDispatch } from 'react-redux';
+import { getItemObj } from '../redux/action';
 
-const CarouselSubItem = ({ label,src, href, subLabel }) => {
+const CarouselSubItem = ({ label,src, href, subLabel ,ele}) => {
     const des = `${label.substring(0,150) } ...` ;
 
     const type = `${subLabel.substring(0,45) } ...` ;
+
+    const dispatch = useDispatch() ;
     return (
         <Box
-            as="a"
-            href={href}
+            // as="a"
+            // href={href}
             role={'group'}
             display={'block'}
             rounded={'md'}
@@ -23,7 +27,7 @@ const CarouselSubItem = ({ label,src, href, subLabel }) => {
                         <Img borderRadius={5} src={src} />
                     </Text>
                     <Flex p={1} justifyContent={'space-between'} >
-                        <Button w={'80%'} >Watch Now</Button>
+                        <Button w={'80%'}onClick={()=>dispatch(getItemObj(ele))} >Watch Now</Button>
                         <Button>+</Button>
                     </Flex>
                     <Text textAlign={'center'} pt={1} fontWeight={700} fontSize={'12px'}>{type}</Text>

@@ -1,7 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import Navbar from "./Pages/Navbar";
 import ItemPreview from "./Pages/ItemPreview";
-import CarouselItems from "./Pages/CarouselItems";
 import ReactSlick from "./Pages/ReactSlick";
 import { useSelector } from "react-redux";
 
@@ -12,8 +11,6 @@ function App() {
     <Box bg={mode?'black':'white'} >
       <Navbar />
       <ItemPreview mode={mode} />
-      <ReactSlick mode={mode} />
-      <ReactSlick mode={mode} />
       <ReactSlick mode={mode} />
     </Box>
   );

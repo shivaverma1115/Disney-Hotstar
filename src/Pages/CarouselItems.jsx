@@ -1,19 +1,16 @@
 import React from 'react'
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Box, Img, Popover, PopoverContent, PopoverTrigger, Stack } from '@chakra-ui/react'
-import arr from '../NAV_ITEMS.json'
 import CarouselSubItem from '../Components/carouselSubItem';
 
 const CarouselItems = ({ele,mode}) => {
-
     return (
-        <Box>
+        <Box p={1} >
             <Popover trigger={'hover'} placement={'bottom-start'}>
                 <PopoverTrigger>
                     <Box
-                        as="a"
-                        href={ele.href ?? '#'}
+                        // as="a"
+                        // href={ele.href ?? '#'}
                         fontSize={'sm'}
                         fontWeight={500}
                         _hover={{
@@ -38,8 +35,8 @@ const CarouselItems = ({ele,mode}) => {
                         minH={'40vh'}
                     >
                         <Stack boxShadow={'black 10px 5px 100px'} >
-                            {ele.children.map((ele,i) => (
-                                <CarouselSubItem key={i} {...ele} />
+                            {ele.children.map((element,i) => (
+                                <CarouselSubItem key={i} {...element} ele={ele} />
                             ))}
                         </Stack>
                     </PopoverContent>
