@@ -33,20 +33,21 @@
 
     "MOVIES_ITEMS": [
       {
-        "label": "The Legend of Hanuman", 
+        "label": "The Legend of Hanuman",
+        "video": "https://res.cloudinary.com/dbbuqesjg/video/upload/v1705235945/Desney_hotstar/trailers/the_legend_of_hanuman_xdjv8y.mp4",
         "src": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9666/1649666-v-e994faa3b7bf",
         "children": [
           {
             "subLabel": "2024 | 3 season | 7 languages | U/A 7+",
-            "video": "2024 | 3 season | 7 languages | U/A 7+",
             "label": "Setting his mighty foot on Lanka, Hanuman unleashes himself against Ravan. Watch the legendary hero and the demon king go head to head in this ultimate war.Setting his mighty foot on Lanka, Hanuman unleashes himself against Ravan. Watch the legendary hero and the demon king go head to head in this ultimate war.",
             "src": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9668/1649668-i-3d1bf67b1bcf",
-            "href": "The Legend of Hanuman"
+            "href": "#"
           }
         ]
       },
       {
         "label": "ECHO", 
+        "video": "https://res.cloudinary.com/dbbuqesjg/video/upload/v1705655232/Desney_hotstar/trailers/Echo_x1gznz.mp4",
         "src": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/88/1650088-v-c469bd343897",
         "children": [
           {
@@ -59,6 +60,7 @@
       },
       {
         "label": "PERILLOR PERMIER LEAGUE", 
+        "video": "https://res.cloudinary.com/dbbuqesjg/video/upload/v1705655471/Desney_hotstar/trailers/PERILLOR_PERMIER_LEAGUE_hxxp2o.mp4", 
         "src": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5407/1645407-v-7b84525a75fa",
         "children": [
           {
@@ -71,6 +73,7 @@
       },
       {
         "label": "NEVER SAY NEVER", 
+        "video": "https://res.cloudinary.com/dbbuqesjg/video/upload/v1705655606/Desney_hotstar/trailers/Never_Say_Never_with_Jeff_Jenkins___Official_Trailer___National_Geographic_hsebpk.mp4", 
         "src": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3617/1643617-v-df1c4ea39e07",
         "children": [
           {
@@ -83,6 +86,7 @@
       },
       {
         "label": "PARKING", 
+        "video": "https://res.cloudinary.com/dbbuqesjg/video/upload/v1705655676/Desney_hotstar/trailers/Parking_ygca40.mp4", 
         "src": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/2398/1642398-v-3ec00f10b8e7",
         "children": [
           {
@@ -95,6 +99,7 @@
       },
       {
         "label": "12th FAIL", 
+        "video": "https://res.cloudinary.com/dbbuqesjg/video/upload/v1705329371/Desney_hotstar/trailers/fail_a9my8s.mp4", 
         "src": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/217/1640217-v-99dd2cb43cd4",
         "children": [
           {
@@ -107,6 +112,7 @@
       },
       {
         "label": "FALIMY", 
+        "video": "https://res.cloudinary.com/dbbuqesjg/video/upload/v1705655772/Desney_hotstar/trailers/FALIMY_z6fzv6.mp4", 
         "src": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7739/1637739-v-10ce41cd129e",
         "children": [
           {
@@ -119,6 +125,7 @@
       },
       {
         "label": "FREELANCER", 
+        "video": "https://res.cloudinary.com/dbbuqesjg/video/upload/v1705655839/Desney_hotstar/trailers/FREELANCER_iexisg.mp4", 
         "src": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/6619/1636619-v-258b165fe10c",
         "children": [
           {
@@ -131,6 +138,7 @@
       },
       {
         "label": "It was alaways me", 
+        "video": "https://res.cloudinary.com/dbbuqesjg/video/upload/v1705655939/Desney_hotstar/trailers/IT_WAS_ALWAYS_ME_2022_Trailer___Karol_Sevilla_Disney_Mystery_Drama_Series_uhldej.mp4", 
         "src": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5279/1645279-v-f6052d2fa2a2",
         "children": [
           {
@@ -143,6 +151,7 @@
       },
       {
         "label": "Death and other Details", 
+        "video": "https://res.cloudinary.com/dbbuqesjg/video/upload/v1705656065/Desney_hotstar/trailers/Death_and_other_Details_v8dgwx.mp4", 
         "src": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/6540/1646540-v-ce49914c2350",
         "children": [
           {
