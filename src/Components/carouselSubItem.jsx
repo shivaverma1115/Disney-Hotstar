@@ -10,6 +10,11 @@ const CarouselSubItem = ({ label,src, href, subLabel ,ele}) => {
     const type = `${subLabel.substring(0,45) } ...` ;
 
     const dispatch = useDispatch() ;
+
+    const handleWatch= (ele)=>{
+        dispatch(getItemObj(ele)) ;
+        window.scrollTo(0,0) ;
+    }
     return (
         <Box
             // as="a"
@@ -27,7 +32,7 @@ const CarouselSubItem = ({ label,src, href, subLabel ,ele}) => {
                         <Img borderRadius={5} src={src} />
                     </Text>
                     <Flex p={1} justifyContent={'space-between'} >
-                        <Button w={'80%'}onClick={()=>dispatch(getItemObj(ele))} >Watch Now</Button>
+                        <Button w={'80%'}onClick={()=>handleWatch(ele)} >Watch Now</Button>
                         <Button>+</Button>
                     </Flex>
                     <Text textAlign={'center'} pt={1} fontWeight={700} fontSize={'12px'}>{type}</Text>

@@ -20,7 +20,7 @@ const CallToActionWithVideo=({ mode }) =>{
 
   useEffect(()=>{
     videoRef.current.load() ;
-  },[itemObj])
+  },[itemObj,videoRef])
 
 
   const handlePlayPause = () => {
@@ -39,21 +39,7 @@ const CallToActionWithVideo=({ mode }) =>{
       <Stack align={'center'} spacing={[6, 8, 10]} py={[12, 20, 28]} direction={['column', 'column', 'row']}>
         <Stack flex={1} spacing={[3, 5, 10]}  >
           <Heading lineHeight={1.1} fontWeight={600} fontSize={['3xl', '4xl', '5xl']}>
-            <Text
-              as={'span'}
-              position={'relative'}
-              _after={{
-                content: "''",
-                width: 'full',
-                height: '30%',
-                position: 'absolute',
-                bottom: 1,
-                left: 0,
-                bg: 'red.400',
-                zIndex: -1,
-              }}
-              color={mode ? 'white' : 'black'}
-            >
+            <Text as={'span'}position={'relative'}_after={{content: "''",width: 'full',height: '30%',position: 'absolute',bottom: 1,left: 0,bg: 'red.400',zIndex: -1,}}color={mode ? 'white' : 'black'}>
               Hotstar <span style={{ color: '#09bd58' }} >Special</span>
             </Text>
             <br />
@@ -65,24 +51,11 @@ const CallToActionWithVideo=({ mode }) =>{
             {itemObj.children[0].label}
           </Text>
           <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
-            <Button
-              rounded={'full'}
-              size={'lg'}
-              fontWeight={'normal'}
-              px={6}
-              colorScheme={'red'}
-              bg={'red.400'}
-              _hover={{ bg: 'red.500' }}>
+            <Button rounded={'full'}size={'lg'}fontWeight={'normal'}px={6}colorScheme={'red'}bg={'red.400'}_hover={{ bg: 'red.500' }}>
               Watch for free
             </Button>
-            <Button
-              rounded={'full'}
-              size={'lg'}
-              fontWeight={'normal'}
-              px={6}
-              onClick={handlePlayPause}
-              rightIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
-              {isPlaying ? 'Pause' : 'Play'}
+            <Button rounded={'full'}size={'lg'}fontWeight={'normal'}px={6}onClick={handlePlayPause}rightIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
+              {isPlaying ? 'Play' : 'Pause'}
             </Button>
           </Stack>
         </Stack>

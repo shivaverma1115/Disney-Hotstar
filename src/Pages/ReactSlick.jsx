@@ -44,8 +44,8 @@ const ReactSlick = ({mode}) => {
     };
     const MOVIES_ITEMS = arr.MOVIES_ITEMS
     return (
-        <>
-            <Box w={'95%'} m={'auto'}  >
+        <Box bg={mode ? '' : '#f56565'} my={5} >
+            <Box w={'95%'} m={'auto'} bg={mode ? 'black' : 'white'} >
                 <Box fontSize={25}fontWeight={700}color={mode?'white':'black'} >Latest Releases</Box>
                 <Slider {...settings} >
                     {
@@ -55,7 +55,7 @@ const ReactSlick = ({mode}) => {
                     }
                 </Slider>
             </Box>
-        </>
+        </Box>
     )
 }
 

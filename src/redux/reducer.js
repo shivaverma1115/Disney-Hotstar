@@ -4,7 +4,7 @@ import { GET_ITEM, SWITCH_MODE } from "./actioType";
 
 
 const initialState = {
-    mode : false ,
+    mode : true ,
     item:{
         "label": "The Legend of Hanuman",
         "video": "https://res.cloudinary.com/dbbuqesjg/video/upload/v1705235945/Desney_hotstar/trailers/the_legend_of_hanuman_xdjv8y.mp4",
