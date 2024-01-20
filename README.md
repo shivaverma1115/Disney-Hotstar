@@ -8,7 +8,7 @@ Experience a fully responsive and visually appealing web interface that grants c
 
 **Disney+ Hotstart:** It has an extensive library of movies to choose from, including new releases, classic films, and foreign films. Disney+ Hotstart is easy to use and navigate, and it offers a variety of features to help users find the perfect movie .
 
-![image]('./Assests/laptop.png')
+![image]('Assests/laptop.png')
 
 **Interactive Pages:** All the pages are completly responsive and go through any devices, which make good user experiance.
 
