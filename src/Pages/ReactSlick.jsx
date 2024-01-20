@@ -6,15 +6,16 @@ import Slider from "react-slick";
 import { Box } from '@chakra-ui/react';
 import arr from '../NAV_ITEMS.json'
 import CaroueslItems from './CarouselItems'
+import { useSelector } from 'react-redux';
 
-const ReactSlick = ({mode,initSlide}) => {
+const ReactSlick = ({initSlide}) => {
     const settings = {
         dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 7,
         slidesToScroll: 2,
-        initialSlide: {initSlide},
+        initialSlide: initSlide,
         responsive: [
             {
                 breakpoint: 1024,
@@ -42,7 +43,8 @@ const ReactSlick = ({mode,initSlide}) => {
             }
         ]
     };
-    const MOVIES_ITEMS = arr.MOVIES_ITEMS
+    const MOVIES_ITEMS = arr.MOVIES_ITEMS ;
+    const mode = useSelector(store => store.mode) ;
     return (
         <Box bg={mode ? '' : '#f56565'} my={5} >
             <Box w={'95%'} m={'auto'} bg={mode ? 'black' : 'white'} >

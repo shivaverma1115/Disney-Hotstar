@@ -5,7 +5,7 @@ import React ,{ useCallback, useEffect, useRef, useState } from "react";
 import { useSelector } from "react-redux";
 import VideoDisplay from "./VideoDisplay";
 
-const CallToActionWithVideo=({ mode }) =>{
+const CallToActionWithVideo=() =>{
   const PlayIcon = createIcon({
     displayName: 'PlayIcon',
     viewBox: '0 0 58 58',
@@ -13,6 +13,7 @@ const CallToActionWithVideo=({ mode }) =>{
   })
 
   const itemObj = useSelector(state=>state.item) ;
+  const mode = useSelector(store => store.mode) ;
   console.log(itemObj) ;
 
   const videoRef = useRef(null);
@@ -33,7 +34,6 @@ const CallToActionWithVideo=({ mode }) =>{
       setIsPlaying(!isPlaying);
     }
   };
-
   return (
     <Container maxW={'7xl'} pt={[5,0,0]} >
       <Stack align={'center'} spacing={[6, 8, 10]} py={[12, 20, 28]} direction={['column', 'column', 'row']}>
@@ -51,8 +51,8 @@ const CallToActionWithVideo=({ mode }) =>{
             {itemObj.children[0].label}
           </Text>
           <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
-            <Button rounded={'full'}size={'lg'}fontWeight={'normal'}px={6}colorScheme={'red'}bg={'red.400'}_hover={{ bg: 'red.500' }}>
-              Watch for free
+            <Button onClick={()=>videoRef.current.load()} rounded={'full'}size={'lg'}fontWeight={'normal'}px={6}colorScheme={'red'}bg={'red.400'}_hover={{ bg: 'red.500' }}>
+              Watch the video
             </Button>
             <Button rounded={'full'}size={'lg'}fontWeight={'normal'}px={6}onClick={handlePlayPause}rightIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
               {isPlaying ? 'Play' : 'Pause'}

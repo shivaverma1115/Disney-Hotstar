@@ -3,9 +3,6 @@ import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons'
 import DesktopNav from './DesktopNav'
 import MobileNav from './MobileNav'
 import AvatarWithRipple from './AvatarWithRipple'
-
-import { useDispatch, useSelector } from 'react-redux'
-import { getSwitchModeToggle } from '../redux/action'
 import ModeToggle from './ModeToggle'
 
 export default function WithSubnavigation() {
@@ -16,8 +13,6 @@ export default function WithSubnavigation() {
                 minH={'60px'}
                 py={2}
                 mx={4}
-                // borderBottom={1}
-                // borderStyle={'solid'}
                 borderColor={useColorModeValue('gray.200', 'gray.900')}
                 align={'center'}>
                 <Flex

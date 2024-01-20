@@ -1,12 +1,11 @@
 import React from 'react'
 import CallToActionWithVideo from '../Components/CallToActionWithVideo'
 import { Box } from '@chakra-ui/react'
-import { useSelector } from 'react-redux';
 
-const ItemPreview = ({mode}) => {
+const ItemPreview = () => {
   return (
     <Box>
-      <CallToActionWithVideo mode={mode} />
+      <CallToActionWithVideo />
     </Box>
   )
 }
