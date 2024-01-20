@@ -5,7 +5,7 @@ import CarouselSubItem from '../Components/carouselSubItem';
 
 const CarouselItems = ({ele,mode}) => {
     return (
-        <Box p={1} >
+        <Box p={1} cursor={'pointer'} >
             <Popover trigger={'hover'} placement={'bottom-start'}>
                 <PopoverTrigger>
                     <Box

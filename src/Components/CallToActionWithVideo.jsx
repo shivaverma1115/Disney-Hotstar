@@ -1,7 +1,7 @@
 import { Box, Button, Container, Flex, Heading, IconButton, Image, Stack, Text, createIcon, useColorModeValue } from "@chakra-ui/react";
 import Blob from "./Blob";
 import 'react-html5video/dist/styles.css'
-import React ,{ useEffect, useRef, useState } from "react";
+import React ,{ useCallback, useEffect, useRef, useState } from "react";
 import { useSelector } from "react-redux";
 import VideoDisplay from "./VideoDisplay";
 
@@ -18,6 +18,11 @@ const CallToActionWithVideo=({ mode }) =>{
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(true);
 
+  useEffect(()=>{
+    videoRef.current.load() ;
+  },[itemObj])
+
+
   const handlePlayPause = () => {
     if (videoRef.current) {
       if (isPlaying) {
@@ -30,7 +35,7 @@ const CallToActionWithVideo=({ mode }) =>{
   };
 
   return (
-    <Container maxW={'7xl'} >
+    <Container maxW={'7xl'} pt={[5,0,0]} >
       <Stack align={'center'} spacing={[6, 8, 10]} py={[12, 20, 28]} direction={['column', 'column', 'row']}>
         <Stack flex={1} spacing={[3, 5, 10]}  >
           <Heading lineHeight={1.1} fontWeight={600} fontSize={['3xl', '4xl', '5xl']}>

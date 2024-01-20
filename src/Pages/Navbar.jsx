@@ -4,7 +4,7 @@ import { Box } from '@chakra-ui/react'
 
 const Navbar = () => {
   return (
-    <Box  >
+    <Box position={'absolute'} w={'100%'}top={0} >
       <WithSubnavigation/>
     </Box>
   )

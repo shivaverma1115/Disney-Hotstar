@@ -10,11 +10,9 @@ function App() {
   const mode = useSelector(store => store.mode) ;
   return (
     <Box bg={mode ? 'black' : 'white'} >
-      <Navbar />
       <ItemPreview mode={mode} />
       <ReactSlick mode={mode} />
-      <ReactSlick mode={mode} />
-      <ReactSlick mode={mode} />
+      <Navbar />
     </Box>
   );
 }
