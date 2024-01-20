@@ -15,10 +15,10 @@ Experience a fully responsive and visually appealing web interface that grants c
 ![image](https://res.cloudinary.com/dbbuqesjg/image/upload/v1705740880/Desney_hotstar/thumnails/Screenshot_30_c4btmn.png)
 
 
-**Movie Details Pag:** 
+**Movie Details Page:** We believe everyone deserves access to a great online experience. That's why our website is fully responsive and optimized for all mobile devices.
 ![image](https://res.cloudinary.com/dbbuqesjg/image/upload/v1705740883/Desney_hotstar/thumnails/Screenshot_27_neoorr.png)
 
-**Movie Details Page:**
+**Movie Details Page:** We believe everyone deserves access to a great online experience. That's why our website is fully responsive and optimized for all mobile devices.
 
 ![image](https://res.cloudinary.com/dbbuqesjg/image/upload/v1705740878/Desney_hotstar/thumnails/Screenshot_29_uvwyhz.png)
 **Movie Details Page:**
@@ -29,7 +29,7 @@ Technologies Used Context-API for state management React Router for navigation M
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,js,redux,mongodb,node,express,chakraui,css,git" />
+    <img src="https://skillicons.dev/icons?i=react,js,redux,chakraui,react-slick,css,git" />
   </a>
 </p>
 
