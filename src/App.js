@@ -11,8 +11,7 @@ function App() {
   return (
     <Box bg={mode ? 'black' : 'white'} >
       <ItemPreview mode={mode} />
-      <ReactSlick mode={mode} />
-      <ReactSlick mode={mode} />
+      <ReactSlick mode={mode} initSlide={0} />
       <Navbar />
     </Box>
   );

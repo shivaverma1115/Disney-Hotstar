@@ -7,14 +7,14 @@ import { Box } from '@chakra-ui/react';
 import arr from '../NAV_ITEMS.json'
 import CaroueslItems from './CarouselItems'
 
-const ReactSlick = ({mode}) => {
+const ReactSlick = ({mode,initSlide}) => {
     const settings = {
         dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 7,
         slidesToScroll: 2,
-        initialSlide: 1,
+        initialSlide: {initSlide},
         responsive: [
             {
                 breakpoint: 1024,
