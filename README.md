@@ -1,13 +1,14 @@
-<h1>DownloadHub</h1> DownloadHub based on MERN stack web application that allows users to browse, search, and download movies in high quality. It has an extensive library of movies to choose from, including new releases, classic films, and foreign films. DownloadHub is easy to use and navigate, and it offers a variety of features to help users find the perfect movie .
+<h1>** Disney+ Hotstart Clone: Seamlessly Stream the Latest Videos on Any Device**</h1> 
+Experience a fully responsive and visually appealing web interface that grants convenient access to the newest Disney+ Hotstart content. Built with a robust tech stack, this project demonstrates proficiency in React.js, JSON data management, and Chakra UI for seamless styling.
 <br/>
 <br/>
-<b>Live At :</b> https://create-react-app-seven-teal-51.vercel.app/
+<b>Live At :</b> https://disneyhotstar-h4cwtwpnn-shivaverma1115.vercel.app/
 
 # Features 
 
-**DownloadHub:** It has an extensive library of movies to choose from, including new releases, classic films, and foreign films. DownloadHub is easy to use and navigate, and it offers a variety of features to help users find the perfect movie .
+**Disney+ Hotstart:** It has an extensive library of movies to choose from, including new releases, classic films, and foreign films. Disney+ Hotstart is easy to use and navigate, and it offers a variety of features to help users find the perfect movie .
 
-![image](https://res.cloudinary.com/dbbuqesjg/image/upload/v1695317422/DownloadHub-MERN-Photos/1_q93rrl.png)
+![image]('./my-app/src/Assests/laptop.png')
 
 **Interactive Pages:** All the pages are completly responsive and go through any devices, which make good user experiance.
 
@@ -25,7 +26,7 @@ Technologies Used Context-API for state management React Router for navigation M
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,js,contextapi,mongodb,node,express,chakraui,css,git" />
+    <img src="https://skillicons.dev/icons?i=react,js,redux,mongodb,node,express,chakraui,css,git" />
   </a>
 </p>
 
