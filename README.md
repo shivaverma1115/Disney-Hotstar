@@ -1,5 +1,5 @@
 <h1>** Disney+ Hotstart Clone: Seamlessly Stream the Latest Videos on Any Device**</h1> 
-Experience a fully responsive and visually appealing web interface that grants convenient access to the newest Disney+ Hotstart content. Built with a robust tech stack, this project demonstrates proficiency in React.js, JSON data management, and Chakra UI for seamless styling.
+Experience a fully responsive and visually appealing web interface that grants convenient access to the newest Disney+ Hotstart content. Built with a robust tech stack, this project demonstrates proficiency in React.js,Redux for state-management, JSON data management, and Chakra UI for seamless styling.
 <br/>
 <br/>
 <b>Live At :</b> https://disneyhotstar-h4cwtwpnn-shivaverma1115.vercel.app/
@@ -21,15 +21,12 @@ Experience a fully responsive and visually appealing web interface that grants c
 **Movie Details Page:** We believe everyone deserves access to a great online experience. That's why our website is fully responsive and optimized for all mobile devices.
 
 ![image](https://res.cloudinary.com/dbbuqesjg/image/upload/v1705740878/Desney_hotstar/thumnails/Screenshot_29_uvwyhz.png)
-**Movie Details Page:**
 
-![image](https://res.cloudinary.com/dbbuqesjg/image/upload/v1705740878/Desney_hotstar/thumnails/Screenshot_28_bvuewi.png)
-
-Technologies Used Context-API for state management React Router for navigation Mapbox API for interactive maps OpenWeather API for weather forecasts MongoDB for user authentication and data storage Chakra & Material Components for styling. We welcome contributions from the community!
+Technologies Used Redux for state management, React Router for navigation Mapbox API for interactive maps ,Json for data-storage, Chakra & chakra Components for styling. We welcome contributions from the community!
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,js,redux,chakraui,react-slick,css,git" />
+    <img src="https://skillicons.dev/icons?i=react,js,redux,chakra-ui,react-slick,css,git" />
   </a>
 </p>
 
